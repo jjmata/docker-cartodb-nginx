@@ -5,4 +5,4 @@ nginx:
   links:
    - cartodb:cartodb.localhost
 cartodb:
-  image: sverhoeven/cartodb
+  image: jjmata/docker-dronedb
