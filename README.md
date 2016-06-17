@@ -6,14 +6,14 @@ Note: You have to link your cartodb container as cartodb.localhost
 # Example
 ## Using docker client
 ```console
-docker run --link cartodb1:cartodb.localhost -d spawnthink/cartodb-nginx
+docker run --link cartodb1:cartodb.localhost -d jjmata/docker-cartodb-nginx
 ```
 
 or 
 ## Using docker-compose
 
 ```console
-git clone https://github.com/spawnthink/docker-cartodb-nginx.git
+git clone https://github.com/jjmata/docker-cartodb-nginx.git
 cd docker-cartodb-nginx
 docker-compose up
 ```
