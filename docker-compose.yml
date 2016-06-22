@@ -1,5 +1,5 @@
 nginx:
-  image: cartodb-nginx
+  image: jjmata/docker-cartodb-nginx
   ports:
    - "80:80"
   links:
